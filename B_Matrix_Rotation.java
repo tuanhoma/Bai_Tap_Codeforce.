@@ -16,9 +16,9 @@ public class B_Matrix_Rotation {
             int d = sc.nextInt();
 
             // nếu hàng 1 và hàng 2 giống nhau cột 1 của 2 hàng cùng lớn hơn hoặc bé hon cột 2 của cả 2 hàng thì luôn đảm bảo thỏa mãn bài và in YES, nếu ko thì in no
-            if(a > b && c > d){// nếu a > b thì và c > d thì luôn đảm bảo thỏa mãn,
+            if((a > b && c > d) && ((a < c && b < d) || (a > c && b > d))){// nếu a > b thì và c > d thì luôn đảm bảo thỏa mãn,
                 System.out.println("YES");
-            }else if(a < b && c < d){
+            }else if((a < b && c < d) && ((a > c && b > d) || (a < c && b < d))){
                 System.out.println("YES");
             }else{
                 System.out.println("NO");
