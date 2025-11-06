@@ -7,11 +7,13 @@ public class B_Your_Name {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
 
+
         while(t-- > 0){
             int n = sc.nextInt();
             sc.nextLine();
-            String a = sc.nextLine();
-            String b = sc.nextLine();
+            String a = sc.next();
+            String b = sc.next();// .next() là gặp dấu cách thì xuống dòng là hoàn thành nhập 1 chuỗi khi enter, vì nó cũng ko nhận enter
+                                 // .nextline() là nhận cả dấu cách, nhưng ko nhận dấu enter
 
             // sap xep chuoi
             char[] tmp_a = a.toCharArray();
