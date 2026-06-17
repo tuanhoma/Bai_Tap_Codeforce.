@@ -1,0 +1,20 @@
+nhật ký 
+13/2
+tạo xong cơ chế login có validate đầy đủ kiểm tra dâtbase
+
+16/2 (29 tết)
+tạo gần xong cơ chết tạo tài khoản
+- cần thêm check validate
+- cần thêm hàm hash mật khẩu
+
+17/2 (mùng 1 tết)
+tạo xong cơ chế validate ở backend khi tạo tk
+- cần thêm hash và đổi mật khẩu;
+
+19/2
+Làm dc font end đổi mật khẩu
+- cần thêm backend
+
+24/2
+Làm xong cặp nhật chi tiết profile người dùng, và đăng xuất logout
+- làm thêm chức năng upload file, bài viết, quen mat khau
